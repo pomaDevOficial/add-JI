@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>VEGASTORE</title>
+  <link rel="stylesheet" href="Style.css">
+</head>
+
+<body>
+  <div class="header-txt">
+ 
+
+  <header class="header">
+    <div class="menu content">
+      <a href="#" class="logo">VegaStore</a>
+      <input type="checkbox" id="menu">
+      <label for="menu">
+        <img src="/imagenes/menu.png" width="20" alt="menu">
+        <a href="#lista-1" class="btn-1" style="margin-top: 10px;">Ir al catálogo</a> <!-- BOTÓN NUEVO -->
+      </label>
+      <nav class="navbar">
+        <ul>
+          <li><a href="#">Inicio</a></li>
+          <li><a href="#">Servicio</a></li>
+          <li><a href="#">Productos</a></li>
+          <li><a href="#">Contactos</a></li>
+        </ul>
+      </nav>
+
+      <!-- Menú del carrito -->
+      <div class="submenu">
+        <img src="imagenes/car.svg" id="img-carrito" alt="Carrito">
+
+        <div id="carrito">
+          <table id="lista-carrito">
+            <thead>
+              <tr>
+                <th>Imagen</th>
+                <th>Nombre</th>
+                <th>Precio</th>
+                <th>Acción</th>
+              </tr>
+            </thead>
+            <tbody></tbody>
+          </table>
+
+          <a href="#" id="vaciar-carrito" class="btn-2">Vaciar carrito</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="header-content container">
+      <div class="header-txt">
+        <h1>ofertas especiales</h1>
+        <p>Estrena los mejores productos</p>
+        <a href="#" class="btn-1">información</a>
+      </div>
+      <div class="header-img">
+        <img src="imagenes/principal.png" alt="10">
+      </div>
+    </div>
+  </header>
+
+  <section class="oferts container" id="lista-1">
+    <h2 style="font-size: 25px; padding-bottom: 10px; font-weight: bold;">Tops y Blusas</h2>
+    <p>Descubre nuestra colección de tops y blusas diseñadas para realzar tu estilo con elegancia y frescura.
+      Cada prenda combina tejidos de alta calidad, cortes modernos y detalles únicos que te harán destacar en cualquier momento.
+      Desde los básicos esenciales hasta diseños más sofisticados, aquí encuentras el complemento perfecto para expresar tu personalidad.
+      ¡Viste con confianza, viste con VEGASTORE!</p>
+    <div class="oferts-content">
+      <div class="ofert-1" data-id="1" data-nombre="elisyum" data-descripcion="calidad estandar" data-precio="$20.00" data-img="imagenes/2.png">
+        <img src="imagenes/c2.jpg" alt="">
+        <div class="product-txt">
+          <h3>Vestido moderno</h3>
+          <p>calidad estandar</p>
+          <p class="precio">$30.00</p>
+          <a href="#" class="agregar-carrito btn-3">agregar</a>
+        </div>
+      </div>
+
+      <div class="ofert-1" data-id="2" data-nombre="elisyum" data-descripcion="calidad estandar" data-precio="$20.00" data-img="imagenes/5.png">
+        <img src="imagenes/5.png" alt="">
+        <div class="product-txt">
+          <h3>Top</h3>
+          <p>calidad estandar</p>
+          <p class="precio">$20.00</p>
+          <a href="#" class="agregar-carrito btn-3">agregar</a>
+        </div>
+      </div>
+
+      <div class="logan-1">
+        <h3>vestidos</h3>
+        <p>productos</p>
+        <a href="#" class="btn-2">información</a>
+      </div>
+    </div>
+    
+    <div class="oferts-content">
+      <div class="logan-1">
+        <h3>vestidos</h3>
+        <p>productos</p>
+        <a href="#" class="btn-2">información</a>
+      </div>
+
+      <div class="ofert-1" data-id="3" data-nombre="elisyum" data-descripcion="calidad estandar" data-precio="$20.00" data-img="imagenes/6.png">
+        <img src="imagenes/6.png" alt="">
+        <div class="product-txt">
+          <h3>Vestido</h3>
+          <p>calidad estandar</p>
+          <p class="precio">$20.00</p>
+          <a href="#" class="agregar-carrito btn-3">agregar</a>
+        </div>
+      </div>
+
+      <div class="ofert-1" data-id="4" data-nombre="elisyum" data-descripcion="calidad estandar" data-precio="$20.00" data-img="imagenes/5.png">
+        <img src="imagenes/5.png" alt="">
+        <div class="product-txt">
+          <h3>Estreno</h3>
+          <p>calidad estandar</p>
+          <p class="precio">$20.00</p>
+          <a href="#" class="agregar-carrito btn-3">agregar</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="promotion">
+    <div class="promotion-content container">
+      <div class="promotion-txt">
+        <h2>las mejores promociones solo aquí</h2>
+        <p>En VEGASTORE sabemos que te encanta lucir increíble sin gastar de más. Por eso te traemos ofertas exclusivas en ropa de alta calidad, con diseños modernos y cómodos para cualquier ocasión.
+          Aprovecha nuestros precios especiales y renueva tu guardarropa con estilo.
+          ¡No dejes pasar estas oportunidades únicas, porque en VEGASTORE vestir bien es posible para todos!</p>
+          <div>
+            <a href="#" class="btn-1">información</a>
+          </div>
+      </div>
+      <div class="promotion-img">
+        <img src="imagenes/imagen-center.jpg" alt="">
+      </div>
+    </div>
+  </section>
+
+  <main class="producto container" id="lista_2" style="padding-top: 25px;">
+    <h2 style="font-size: 25px; padding-bottom: 10px; font-weight: bold;">Productos</h2>
+    <p>En VEGASTORE nos especializamos en ofrecer prendas de ropa diseñadas con materiales de la más alta calidad. Cada pieza combina estilo, confort y durabilidad para que luzcas increíble en todo momento.
+      Encuentra tops, blusas, vestidos y mucho más, pensados para realzar tu personalidad y acompañarte en cada paso.
+      ¡Vístete con confianza, vístete con VEGASTORE!</p>
+    <div class="product-content">
+      <div class="ofert-1" data-id="5" data-nombre="elysium" data-descripcion="calidad estandar" data-precio="s/50" data-img="imagenes/1.png">
+        <img src="imagenes/1.png" alt="">
+        <div class="product-txt">
+          <h3>elysium</h3>
+          <p>calidad estandar</p>
+          <p class="precio">s/50</p>
+          <a href="#" class="agregar-carrito btn-3">agregar</a>
+        </div>
+      </div>
+
+      <div class="ofert-1" data-id="6" data-nombre="elysium" data-descripcion="calidad estandar" data-precio="s/50" data-img="imagenes/2.png">
+        <img src="imagenes/2.png" alt="">
+        <div class="product-txt">
+          <h3>elysium</h3>
+          <p>calidad estandar</p>
+          <p class="precio">s/50</p>
+          <a href="#" class="agregar-carrito btn-3">agregar</a>
+        </div>
+      </div>
+
+      <div class="ofert-1" data-id="7" data-nombre="elysium" data-descripcion="calidad estandar" data-precio="s/50" data-img="imagenes/5.png">
+        <img src="imagenes/5.png" alt="">
+        <div class="product-txt">
+          <h3>elysium</h3>
+          <p>calidad estandar</p>
+          <p class="precio">s/50</p>
+          <a href="#" class="agregar-carrito btn-3">agregar</a>
+        </div>
+      </div>
+
+      <div class="ofert-1" data-id="8" data-nombre="elysium" data-descripcion="calidad estandar" data-precio="s/50" data-img="imagenes/7.png">
+        <img src="imagenes/7.png" alt="">
+        <div class="product-txt">
+          <h3>elysium</h3>
+          <p>calidad estandar</p>
+          <p class="precio">s/50</p>
+          <a href="#" class="agregar-carrito btn-3">agregar</a>
+        </div>
+      </div>
+
+      <div class="ofert-1" data-id="9" data-nombre="elysium" data-descripcion="calidad estandar" data-precio="s/50" data-img="imagenes/9.png">
+        <img src="imagenes/9.png" alt="">
+        <div class="product-txt">
+          <h3>elysium</h3>
+          <p>calidad estandar</p>
+          <p class="precio">s/50</p>
+          <a href="#" class="agregar-carrito btn-3">agregar</a>
+        </div>
+      </div>
+
+      <div class="ofert-1" data-id="10" data-nombre="elysium" data-descripcion="calidad estandar" data-precio="s/50" data-img="imagenes/11.png">
+        <img src="imagenes/11.png" alt="">
+        <div class="product-txt">
+          <h3>elysium</h3>
+          <p>calidad estandar</p>
+          <p class="precio">s/50</p>
+          <a href="#" class="agregar-carrito btn-3">agregar</a>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <section class="blog container">
+    <h2 style="font-size: 25px; padding-bottom: 10px; font-weight: bold;">Nuevas Novedades</h2>
+    <p>¡Nuevas tendencias han llegado a Desing Alexis Pro! Explora nuestra colección de ropa fresca y moderna, diseñada para resaltar tu estilo único. Desde prendas cómodas y elegantes hasta looks atrevidos y sofisticados, cada pieza está pensada para que te sientas increíble. ¡No te pierdas nuestras últimas novedades!</p>
+    <div class="blog-content">
+      <div class="blog-1">
+        <img src="imagenes/13.png" alt="">
+        <div class="blog-txt">
+          <p>Vestido Moderno
+            Este vestido combina elegancia y comodidad en un diseño único.
+            Confeccionado en telas suaves y resistentes, presenta un corte que estiliza la figura y detalles cuidadosamente pensados para resaltar tu personalidad.
+            Ideal para eventos especiales o salidas casuales, su acabado de alta calidad garantiza un look sofisticado durante todo el día.
+            ¡Atrévete a brillar con estilo propio!</p>
+          <a href="#" class="btn-4">leer más</a>
+        </div>
+      </div>
+
+      <div class="blog-1">
+        <img src="imagenes/14.png" alt="">
+        <div class="blog-txt">
+          <p>Vestido Floreado
+            Luce fresca y radiante con nuestro vestido floreado, diseñado para resaltar tu belleza natural.
+            Su estampado de flores vibrantes aporta un toque de alegría y feminidad, mientras que su tela ligera y suave garantiza comodidad en cada movimiento.
+            Perfecto para paseos al aire libre, eventos de día o reuniones casuales, este vestido se convertirá en tu favorito de la temporada.
+            ¡Siéntete libre, cómoda y siempre a la moda!</p>
+          <a href="#" class="btn-4">leer más</a>
+        </div>
+      </div>
+
+      <div class="blog-1">
+        <img src="imagenes/12.png" alt="">
+        <div class="blog-txt">
+          <p>Descubre la elegancia atemporal con nuestro vestido negro. Con un diseño sofisticado y versátil, es la prenda perfecta para cualquier ocasión. Siente la comodidad y el estilo que te acompañan en cada momento.</p>
+          <a href="#" class="btn-4">leer más</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  
+
+  <script src="scrip.js"></script>
+
+
+  <footer class="footer">
+    <div class="link">
+      <h3>Compañía</h3>
+      <a href="#">Sobre nosotros</a>
+      <a href="#">Servicios</a>
+      <a href="#">Política de privacidad</a>
+      <a href="#">Afíliate</a>
+    </div>
+  
+    <div class="link">
+      <h3>Ayuda</h3>
+      <a href="#">Preguntas frecuentes</a>
+      <a href="#">Envíos</a>
+      <a href="#">Pagos</a>
+      <a href="#">Devoluciones</a>
+    </div>
+  
+    <div class="link">
+      <h3>Redes Sociales</h3>
+      <a href="#">Facebook</a>
+      <a href="#">Whatsapp</a>
+      <a href="#">Instagram</a>
+    
+    </div>
+  </footer>
+  
+</body>
+
+</html>
